@@ -14,7 +14,7 @@ function cargarFiltradoSS() { return JSON.parse(sessionStorage.getItem("filtrado
 function guardarProductosSS() { sessionStorage.setItem("productosSS", JSON.stringify(product)) }
 function cargarProductosSS() { return JSON.parse(sessionStorage.getItem("productosSS")) }
 function cargarProductosLS() { return JSON.parse(localStorage.getItem("productosLS")); }
-
+function guardarProductosLS() { localStorage.setItem("productosLS", JSON.stringify(product)) }
 /*Funciones para la sección de filtros*/
 
 
