@@ -11,10 +11,12 @@ renderCarrito()
 renderContadorCarrito()}
 /*-----------------------------------------------------Cálculo de precio total---------------------------------------------------*/
 function precioTotal(){
+    let blue=JSON.parse(localStorage.getItem("valorBlue"));
     let precioParcial=0;
     let cargarCarrito=JSON.parse(localStorage.getItem("carrito"));
     cargarCarrito.forEach((item)=>{precioParcial=precioParcial+item.precio*item.cantidad;})
-    document.getElementById("calculoTotal").innerHTML="$"+precioParcial;
+    document.getElementById("calculoUSDT").innerHTML="$"+precioParcial;
+    document.getElementById("calculoARS").innerHTML="$"+precioParcial*blue;
 }
 /*-------------------------------------------Funcionalidad borrar ítem-----------------------------------*/
 function borrarItem(index)
@@ -56,11 +58,13 @@ swal.fire({
 
 });
 }
-/*
+
 const obtenerValorBlue= async ()=>{
-    const respuesta = await fetch("./JSON/BaseDeDatos.json");
-    const BaseDeDatos= await respuesta.json();
-    localStorage.setItem("productosLS",JSON.stringify(BaseDeDatos))
-    }
-*/
+    const respuesta = await fetch("https://api.bluelytics.com.ar/v2/latest");
+    const dolarBlueVenta= await respuesta.json();
+    localStorage.setItem("valorBlue",JSON.stringify(dolarBlueVenta.blue.value_sell))
+    
+return dolarBlueVenta
+}
+obtenerValorBlue()
 renderCarrito()
