@@ -1,0 +1,11 @@
+[
+    {"ID":1, "modelo":"Air Jordan", "tipo":"High Dark Mocha","color":"blanco marron negro", "precio":150,"img":"./Images/Catalogo/11-dfcb78b21d859e743f16107208352137-640-0.jpg","stock37":0,"stock38":10,"stock39":13,"stock40":10,"stock41":0,"stock42":15,"stock43":10,"stock44":10},
+    {"ID":2, "modelo":"Air Jordan", "tipo":"High Lucky Green","color":"verde blanco", "precio":160, "img":"./Images/Catalogo/AIR JORDAN 1 RETRO HIGH LUCKY GREEN (1).png","stock37":0,"stock38":8,"stock39":10,"stock40":10,"stock41":3,"stock42":10,"stock43":10,"stock44":10},
+    {"ID":3, "modelo":"Air Jordan", "tipo":"Mid Homage","color":"blanco negro", "precio":140, "img":"./Images/Catalogo/Mid homage.jpg","stock37":0,"stock38":10,"stock39":10,"stock40":4,"stock41":0,"stock42":10,"stock43":12,"stock44":10},
+    {"ID":4, "modelo":"Air Force 1", "tipo":"Low Triple White","color":"blanco", "precio":80, "img":"./Images/Catalogo/low triple white.jpg","stock37":0,"stock38":10,"stock39":10,"stock40":10,"stock41":0,"stock42":10,"stock43":10,"stock44":10},
+    {"ID":5, "modelo":"Air Force 1", "tipo":"Low Cut Out","color":"gris", "precio":110, "img":"./Images/Catalogo/low cut out.jpg","stock37":0,"stock38":10,"stock39":10,"stock40":5,"stock41":0,"stock42":9,"stock43":10,"stock44":10},
+    {"ID":6, "modelo":"Air Force 1", "tipo":"Low x Supreme Black","color":"negro", "precio":180, "img":"./Images/Catalogo/af1_low_supreme-black-2_800x.jpg","stock37":0,"stock38":6,"stock39":10,"stock40":0,"stock41":0,"stock42":10,"stock43":11,"stock44":10},
+    {"ID":7, "modelo":"SB Dunk", "tipo":"Low Fruity Pack Green Apple","color":"verde blanco", "precio":150, "img":"./Images/Catalogo/green apple.png","stock37":0,"stock38":9,"stock39":21,"stock40":10,"stock41":0,"stock42":5,"stock43":16,"stock44":10},
+    {"ID":8, "modelo":"SB Dunk", "tipo":"Low Los Angeles Dodgers", "color":"azul blanco", "precio":150, "img":"./Images/Catalogo/dodgers.png","stock37":0,"stock38":10,"stock39":10,"stock40":12,"stock41":0,"stock42":10,"stock43":10,"stock44":10},
+    {"ID":9, "modelo":"SB Dunk", "tipo":"Low Gnarhunters", "color":"negro", "precio":150, "img":"./Images/Catalogo/gnarhunters.jpeg","stock37":0,"stock38":23,"stock39":10,"stock40":8,"stock41":0,"stock42":10,"stock43":12,"stock44":10}
+]

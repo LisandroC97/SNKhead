@@ -1,0 +1,31 @@
+body{
+    width: 100%;
+    height: fit-content;
+    
+
+.carrito{width: 65%;
+    height: fit-content;
+    margin: auto;
+font-size: larger;
+background-color: white;
+padding: 3%;
+border-radius:20px;
+box-shadow: 5px 5px 5px rgb(196, 196, 196);
+
+.total{width: 45%;
+margin:auto;
+display:flex;
+margin-left: 63%;;
+}
+#vaciarCarrito{
+    display: block;
+    margin: auto !important;
+    text-align: center !important;}
+
+}
+#confirmarCompra{display: block;
+    margin: auto;
+    width: 30%;
+}
+
+}
