@@ -24,12 +24,16 @@ function borrarItem(index)
     renderCarrito();
     renderContadorCarrito();
 }
-
+/*--------------------------------Funcionalidad para el boton de confirmar compra---------------------------------- */
 let confirmar=document.getElementById("confirmarCompra")
     confirmar.addEventListener("click",confirmacionCompra)
 
 function confirmacionCompra()
-{swal.fire({
+{
+    localStorage.setItem("carrito",JSON.stringify([]))
+renderCarrito()
+renderContadorCarrito()
+swal.fire({
     title: '<strong>Ya guardamos su pedido</strong>',
     icon: 'success',
     width:900,
@@ -50,8 +54,13 @@ function confirmacionCompra()
     confirmButtonAriaLabel: 'Thumbs up, great!',
 
 
-})}
-
-
-
+});
+}
+/*
+const obtenerValorBlue= async ()=>{
+    const respuesta = await fetch("./JSON/BaseDeDatos.json");
+    const BaseDeDatos= await respuesta.json();
+    localStorage.setItem("productosLS",JSON.stringify(BaseDeDatos))
+    }
+*/
 renderCarrito()
