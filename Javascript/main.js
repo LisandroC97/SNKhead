@@ -12,19 +12,21 @@ let product=[
     {ID:9, modelo:"SB Dunk", tipo:"Low Gnarhunters", color:"negro", precio:150, img:"./Images/Catalogo/gnarhunters.jpeg",stock37:0,stock38:10,stock39:10,stock40:0,stock41:10,stock42:0,stock43:10,stock44:10}
 ]
 /*
+const dbGlobal=[]
 const cargarDB= async ()=>{
     const respuesta = await fetch("./JSON/BaseDeDatos.json");
     const BaseDeDatos= await respuesta.json();
-    localStorage.setItem("productosLS",JSON.stringify(BaseDeDatos))
+    dbGlobal=BaseDeDatos
     }
 }
 cargarDB().then((response)=>{let variableGlobal=response;})
-/*let product= cargarProductosLS();*/
+*/
 let filtradoSS=[];
 let min=0;
 sessionStorage.setItem("minimo",JSON.stringify(min));
 let max=1000;
 sessionStorage.setItem("maximo",JSON.stringify(max));
+/*let product= cargarProductosLS();*/
 guardarProductosSS();
 guardarProductosLS();
 guardarFiltradoSS();
