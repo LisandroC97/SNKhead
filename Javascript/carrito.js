@@ -31,8 +31,8 @@ let confirmar=document.getElementById("confirmarCompra")
     confirmar.addEventListener("click",confirmacionCompra)
 
 function confirmacionCompra()
-{
-    localStorage.setItem("carrito",JSON.stringify([]))
+{   
+localStorage.setItem("carrito",JSON.stringify([]))
 renderCarrito()
 renderContadorCarrito()
 swal.fire({

@@ -1,5 +1,4 @@
-/*Simulación de base de datos de productos con modelo, tipo, color, precio y stock además de un número de ID correspondiente*/ 
-/*Por falta de tiempo no alcanzo a implementarla con fetch */
+
 let product=[
     {ID:1, modelo:"Air Jordan", tipo:"High Dark Mocha",color:"blanco marron negro", precio:150,img:"./Images/Catalogo/11-dfcb78b21d859e743f16107208352137-640-0.jpg",stock37:0,stock38:10,stock39:10,stock40:10,stock41:0,stock42:10,stock43:10,stock44:10},
     {ID:2, modelo:"Air Jordan", tipo:"High Lucky Green",color:"verde blanco", precio:160, img:"./Images/Catalogo/AIR JORDAN 1 RETRO HIGH LUCKY GREEN (1).png",stock37:0,stock38:0,stock39:10,stock40:0,stock41:10,stock42:10,stock43:10,stock44:10},
