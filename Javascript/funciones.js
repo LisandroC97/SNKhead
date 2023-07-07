@@ -9,6 +9,7 @@ function precioMaximo() {
     let max = document.getElementById("max").value;
     sessionStorage.setItem("maximo", max)
 }
+
 function guardarFiltradoSS() { sessionStorage.setItem("filtradoSS", JSON.stringify(product)) }
 function cargarFiltradoSS() { return JSON.parse(sessionStorage.getItem("filtradoSS")) }
 function guardarProductosSS() { sessionStorage.setItem("productosSS", JSON.stringify(product)) }
