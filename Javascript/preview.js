@@ -113,7 +113,12 @@ let agregarAlCarrito=document.getElementById("agregarAlCarrito")
             let traerTalle=JSON.parse(localStorage.getItem("TalleSeleccionado"));
             if (traerTalle == null || traerTalle== undefined){
 
-                alert("Seleccione un talle");}
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Epa!',
+                    text: 'Olvidó elegir un talle!',
+                })
+            }
             else {
             
             let traerProducto=JSON.parse(localStorage.getItem("productoPreviewLS"));
