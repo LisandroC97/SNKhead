@@ -1,4 +1,5 @@
 /*-----------------------------------------------------Render carrito---------------------------------------------------*/
+
 function renderCarrito() {
     let carrito = JSON.parse(localStorage.getItem("carrito"));
     let renderCarrito = '';
@@ -19,5 +20,6 @@ function renderCarrito() {
     }
     )
     document.getElementById("renderCarrito").innerHTML = renderCarrito;
+    
     precioTotal()
 }

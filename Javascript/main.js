@@ -31,5 +31,6 @@ guardarProductosSS();
 guardarProductosLS();
 guardarFiltradoSS();
 render();
+obtenerValorBlue();
 window.onload=renderContadorCarrito();
 
