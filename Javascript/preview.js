@@ -116,7 +116,7 @@ let agregarAlCarrito=document.getElementById("agregarAlCarrito")
                 Swal.fire({
                     icon: 'error',
                     title: 'Epa!',
-                    text: 'Olvidó elegir un talle!',
+                    text: 'Te faltó elegir talle!',
                 })
             }
             else {
