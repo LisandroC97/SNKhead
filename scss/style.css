@@ -224,7 +224,6 @@ body .carrito {
 body .carrito .total {
   width: 45%;
   margin: auto;
-  display: flex;
   margin-left: 63%;
 }
 body .carrito #vaciarCarrito {
